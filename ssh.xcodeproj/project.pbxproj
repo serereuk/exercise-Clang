@@ -41,6 +41,7 @@
 		C5418F9920F6F601001CDCA3 = {
 			isa = PBXGroup;
 			children = (
+				C5418FAC20F6FE1A001CDCA3 /* New Group */,
 				C5418FA420F6F601001CDCA3 /* ssh */,
 				C5418FA320F6F601001CDCA3 /* Products */,
 			);
@@ -60,6 +61,13 @@
 				C5418FA520F6F601001CDCA3 /* main.c */,
 			);
 			path = ssh;
+			sourceTree = "<group>";
+		};
+		C5418FAC20F6FE1A001CDCA3 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
