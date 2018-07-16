@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C5418FB320F700A9001CDCA3 /* exercise2.c in Sources */ = {isa = PBXBuildFile; fileRef = C5418FB220F700A9001CDCA3 /* exercise2.c */; };
+		C5418FBB20F76B66001CDCA3 /* exercise4.c in Sources */ = {isa = PBXBuildFile; fileRef = C5418FBA20F76B66001CDCA3 /* exercise4.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +26,8 @@
 		C5418FA220F6F601001CDCA3 /* ssh */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ssh; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5418FA520F6F601001CDCA3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		C5418FB220F700A9001CDCA3 /* exercise2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = exercise2.c; sourceTree = "<group>"; };
+		C5418FB620F75482001CDCA3 /* exercise3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = exercise3.c; path = "3번/exercise3.c"; sourceTree = "<group>"; };
+		C5418FBA20F76B66001CDCA3 /* exercise4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = exercise4.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +44,9 @@
 		C5418F9920F6F601001CDCA3 = {
 			isa = PBXGroup;
 			children = (
-				C5418FAC20F6FE1A001CDCA3 /* New Group */,
+				C5418FB920F76B31001CDCA3 /* 4번 */,
+				C5418FB520F75448001CDCA3 /* 3번 */,
+				C5418FAC20F6FE1A001CDCA3 /* 2번 */,
 				C5418FA420F6F601001CDCA3 /* ssh */,
 				C5418FA320F6F601001CDCA3 /* Products */,
 			);
@@ -64,12 +68,29 @@
 			path = ssh;
 			sourceTree = "<group>";
 		};
-		C5418FAC20F6FE1A001CDCA3 /* New Group */ = {
+		C5418FAC20F6FE1A001CDCA3 /* 2번 */ = {
 			isa = PBXGroup;
 			children = (
 				C5418FB220F700A9001CDCA3 /* exercise2.c */,
 			);
-			path = "New Group";
+			name = "2번";
+			path = "2번";
+			sourceTree = "<group>";
+		};
+		C5418FB520F75448001CDCA3 /* 3번 */ = {
+			isa = PBXGroup;
+			children = (
+				C5418FB620F75482001CDCA3 /* exercise3.c */,
+			);
+			name = "3번";
+			sourceTree = "<group>";
+		};
+		C5418FB920F76B31001CDCA3 /* 4번 */ = {
+			isa = PBXGroup;
+			children = (
+				C5418FBA20F76B66001CDCA3 /* exercise4.c */,
+			);
+			name = "4번";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5418FB320F700A9001CDCA3 /* exercise2.c in Sources */,
+				C5418FBB20F76B66001CDCA3 /* exercise4.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
